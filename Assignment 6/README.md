@@ -10,3 +10,10 @@ Sub-graphs is an important controlability topic. Sub-graphs allow you to create 
   -Tweaking
   .Included the HuggingFaceEmbeddings import in cell 4
   .Replaced generic dummy logs with more varied and descriptive Log entries, including distinct successful and failed scenarios, to better      illustrate the graph's processing capabilities.
+
+Map-Reduce
+It is an efficient task decomosition and parallel processing method. It has two phases. The map phase takes some task and breaks it into subtasks and does them in parallel. The reduce is the aggregate results from all the parallalized subtasks and brings them back together.
+   -Tweaking
+    .Model and Node Name Changes (Cells 5, 7, 8, 9, 10)
+    .Included the HuggingFaceEmbeddings import in cell 4
+    .Example Topic (Cells 11)
