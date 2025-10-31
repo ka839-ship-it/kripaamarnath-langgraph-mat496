@@ -4,3 +4,9 @@ We are fanning out and then fan in the nodes. When we are running nodes in paral
   .Graph Structure and Node Name Changes (Cells 5, 7, 9, 11)
   .LLM and Embedding Model Changes (Cell 13)
   .Example Questions (Cells 17, 20)
+
+Sub-graphs
+Sub-graphs is an important controlability topic. Sub-graphs allow you to create and manage different states within different parts of your graph. The key concept is to undrstand how the sub-graphs communicate with the entry graphs and that is done by overlapping keys.
+  -Tweaking
+  .Included the HuggingFaceEmbeddings import in cell 4
+  .Replaced generic dummy logs with more varied and descriptive Log entries, including distinct successful and failed scenarios, to better      illustrate the graph's processing capabilities.
