@@ -17,3 +17,15 @@ It is an efficient task decomosition and parallel processing method. It has two 
     .Model and Node Name Changes (Cells 5, 7, 8, 9, 10)
     .Included the HuggingFaceEmbeddings import in cell 4
     .Example Topic (Cells 11)
+
+Research Assisstant
+We initially need sources for the AI to wok on so we take a couple of arbitary sources using web search tools or we can cutomize them. We useall the methods seen above like parallelization and map reduce to have a conversation between an expert and an analyst. We then compile them into a report. we give instructions for our analysts. We include a human node so that the human's feedback can be taken into account.
+    -Tweaking
+    .LLM provider was changed from Openai to Groq (Cells 1,3,6,17,21,25)
+    .Included the HuggingFaceEmbeddings import instead of the Openai Embeddings 
+    .Example Topic and the topic variables were changes(Cells 7,9,23,26,27)
+    .Prompts were modified
+
+
+
+    
